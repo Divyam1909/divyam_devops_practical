@@ -11,4 +11,4 @@ phases:
     commands:
       - echo "Deploying to S3..."
       # This command syncs your files directly to the root of the bucket
-      - aws s3 sync . s3://dn-exp-9-devops --delete
+      - aws s3 sync . s3://divyam-practical-1  --delete
